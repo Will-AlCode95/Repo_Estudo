@@ -1,6 +1,6 @@
 TelaInicial Static {
     content-align: center middle;
-    background: magenta;
+    background: blue;
 }
 
 VerticalGroup {

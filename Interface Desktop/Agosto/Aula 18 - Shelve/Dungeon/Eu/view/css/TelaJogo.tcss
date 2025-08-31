@@ -1,7 +1,7 @@
 #tx_inventario {
     width: 50;
     height: 13;
-    background: #534a4a19;
+    background: #20a7cdd0;
     layout: grid;
     border: solid blue;
     color: white;

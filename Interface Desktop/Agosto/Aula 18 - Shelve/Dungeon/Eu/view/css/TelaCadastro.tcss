@@ -3,5 +3,5 @@ Static {
 }
 
 TextArea {
-    color: rgba(123, 255, 0, 1);
+    color: rgba(140, 8, 120, 1);
 }

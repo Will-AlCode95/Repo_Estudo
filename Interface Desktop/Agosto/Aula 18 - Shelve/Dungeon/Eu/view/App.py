@@ -3,7 +3,7 @@ from view import TelaInicial, TelaCadastro, TelaJogo
 from textual.binding import Binding
 
 
-class Dungeoun(App):
+class GTA7THEGAME(App):
 
     SCREENS = {
         "tela_inicial": TelaInicial.TelaInicial,
@@ -17,7 +17,7 @@ class Dungeoun(App):
         Binding("escape", "switch_screen('tela_inicial')", "Tela Inicial")
     }
 
-    TITLE = "Dungeon"
+    TITLE = "GTA7THEGAME"
 
     def on_mount(self):
         self.push_screen("tela_inicial")
