@@ -1,0 +1,87 @@
++-----+----------+---------------+---------+------------+----+
+| cid |   name   |     type      | notnull | dflt_value | pk |
++-----+----------+---------------+---------+------------+----+
+| 0   | AlbumId  | INTEGER       | 1       |            | 1  |
+| 1   | Title    | NVARCHAR(160) | 1       |            | 0  |
+| 2   | ArtistId | INTEGER       | 1       |            | 0  |
++-----+----------+---------------+---------+------------+----+
++----------------+
+| BillingCountry |
++----------------+
+| Argentina      |
+| Australia      |
+| Austria        |
+| Belgium        |
+| Brazil         |
+| Canada         |
+| Chile          |
+| Czech Republic |
+| Denmark        |
+| Finland        |
+| France         |
+| Germany        |
+| Hungary        |
+| India          |
+| Ireland        |
+| Italy          |
+| Netherlands    |
+| Norway         |
+| Poland         |
+| Portugal       |
+| Spain          |
+| Sweden         |
+| USA            |
+| United Kingdom |
++----------------+
++-----------------+------------+---------+
+|  NomeCompleto   | CustomerId | Country |
++-----------------+------------+---------+
+| Luís Gonçalves  | 1          | Brazil  |
+| Eduardo Martins | 10         | Brazil  |
+| Alexandre Rocha | 11         | Brazil  |
+| Roberto Almeida | 12         | Brazil  |
+| Fernanda Ramos  | 13         | Brazil  |
++-----------------+------------+---------+
++------------+----------+-----------+---------------------+-----------+---------------------+---------------------+------------------+---------+-------+---------+------------+-------------------+-------------------+--------------------------+
+| EmployeeId | LastName | FirstName |        Title        | ReportsTo |      BirthDate      |      HireDate       |     Address      |  City   | State | Country | PostalCode |       Phone       |        Fax        |          Email           |
++------------+----------+-----------+---------------------+-----------+---------------------+---------------------+------------------+---------+-------+---------+------------+-------------------+-------------------+--------------------------+
+| 3          | Peacock  | Jane      | Sales Support Agent | 2         | 1973-08-29 00:00:00 | 2002-04-01 00:00:00 | 1111 6 Ave SW    | Calgary | AB    | Canada  | T2P 5M5    | +1 (403) 262-3443 | +1 (403) 262-6712 | jane@chinookcorp.com     |
+| 4          | Park     | Margaret  | Sales Support Agent | 2         | 1947-09-19 00:00:00 | 2003-05-03 00:00:00 | 683 10 Street SW | Calgary | AB    | Canada  | T2P 5G3    | +1 (403) 263-4423 | +1 (403) 263-4289 | margaret@chinookcorp.com |
+| 5          | Johnson  | Steve     | Sales Support Agent | 2         | 1965-03-03 00:00:00 | 2003-10-17 00:00:00 | 7727B 41 Ave     | Calgary | AB    | Canada  | T3B 1Y7    | 1 (780) 836-9987  | 1 (780) 836-9543  | steve@chinookcorp.com    |
++------------+----------+-----------+---------------------+-----------+---------------------+---------------------+------------------+---------+-------+---------+------------+-------------------+-------------------+--------------------------+
++------------+----------+-----------+---------------------+-----------+---------------------+---------------------+------------------+---------+-------+---------+------------+-------------------+-------------------+--------------------------+
+| EmployeeId | LastName | FirstName |        Title        | ReportsTo |      BirthDate      |      HireDate       |     Address      |  City   | State | Country | PostalCode |       Phone       |        Fax        |          Email           |
++------------+----------+-----------+---------------------+-----------+---------------------+---------------------+------------------+---------+-------+---------+------------+-------------------+-------------------+--------------------------+
+| 2          | Edwards  | Nancy     | Sales Manager       | 1         | 1958-12-08 00:00:00 | 2002-05-01 00:00:00 | 825 8 Ave SW     | Calgary | AB    | Canada  | T2P 2T3    | +1 (403) 262-3443 | +1 (403) 262-3322 | nancy@chinookcorp.com    |
+| 3          | Peacock  | Jane      | Sales Support Agent | 2         | 1973-08-29 00:00:00 | 2002-04-01 00:00:00 | 1111 6 Ave SW    | Calgary | AB    | Canada  | T2P 5M5    | +1 (403) 262-3443 | +1 (403) 262-6712 | jane@chinookcorp.com     |
+| 4          | Park     | Margaret  | Sales Support Agent | 2         | 1947-09-19 00:00:00 | 2003-05-03 00:00:00 | 683 10 Street SW | Calgary | AB    | Canada  | T2P 5G3    | +1 (403) 263-4423 | +1 (403) 263-4289 | margaret@chinookcorp.com |
+| 5          | Johnson  | Steve     | Sales Support Agent | 2         | 1965-03-03 00:00:00 | 2003-10-17 00:00:00 | 7727B 41 Ave     | Calgary | AB    | Canada  | T3B 1Y7    | 1 (780) 836-9987  | 1 (780) 836-9543  | steve@chinookcorp.com    |
++------------+----------+-----------+---------------------+-----------+---------------------+---------------------+------------------+---------+-------+---------+------------+-------------------+-------------------+--------------------------+
++---------------------+
+|     BillingCity     |
++---------------------+
+| Brasília            |
+| Rio de Janeiro      |
+| São José dos Campos |
++---------------------+
++------------+
+| CustomerId |
++------------+
+| 13         |
++------------+
++-----------------------+
+|         Name          |
++-----------------------+
+| Money                 |
+| Long Tall Sally       |
+| Bad Boy               |
+| Twist And Shout       |
+| Please Mr. Postman    |
+| C'Mon Everybody       |
+| Rock 'N' Roll Music   |
+| Slow Down             |
+| Roadrunner            |
+| Carol                 |
+| Good Golly Miss Molly |
+| 20 Flight Rock        |
++-----------------------+
