@@ -1,6 +1,13 @@
-.mode table
 
-SELECT FirstName || ' ' || LastName AS Nome, address as Endereço, Country as País
-FROM customers
-WHERE Endereço LIKE 'B%'
-ORDER BY Nome, País;
+--SELECT * 
+--FROM employees 
+--WHERE Title LIKE '%Sales%';
+
+--SELECT DISTINCT CustomerId 
+--FROM invoices 
+--WHERE BillingCity = 'Brasília';
+
+SELECT t.Name 
+FROM tracks t
+INNER JOIN genres g ON t.GenreId = g.GenreId
+WHERE g.Name = 'Rock And Roll';
